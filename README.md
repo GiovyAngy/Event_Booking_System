@@ -30,6 +30,32 @@ Das Projekt dient als **Lern- und Demonstrationsprojekt** für:
 - **Verbindungspooling**: Effizientes Ressourcenmanagement.
 
 ---
+## 🏗 Architektur
+
+<table>
+  <tr>
+    <td align="center">
+      <strong>Klassen Diagramm</strong><br>
+      <a href="uml/klassendiagramm.md">
+        <img src="uml/klassendiagramm.png" width="250">
+      </a>
+    </td>
+    <td align="center">
+      <strong>Zustand Diagramm</strong><br>
+      <a href="uml/zustandsdiagramm.md">
+        <img src="uml/zustandsdiagramm.png" width="250">
+      </a>
+    </td>
+    <td align="center">
+      <strong>USE-CASE Diagramm</strong><br>
+      <a href="uml/use-case-diagramm.md">
+        <img src="uml/use-case-diagramm.png" width="250">
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
 
 ### Projektstruktur
 ```
