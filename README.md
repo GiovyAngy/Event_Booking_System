@@ -31,23 +31,6 @@ Das Projekt dient als **Lern- und Demonstrationsprojekt** für:
 
 ---
 
-## 🏗 Architektur
-
-Das System folgt strikt dem **MVC-Pattern**:
-
-```mermaid
-graph TD
-    User((Benutzer)) <--> View[View (Swing GUI)]
-    View <--> Controller[Controller Layer]
-    Controller <--> Service[Service Layer]
-    Service <--> DAO[DAO Layer]
-    DAO <--> DB[(MySQL Datenbank)]
-    
-    subgraph "Data Access"
-    DAO -.-> Config[db.properties]
-    end
-```
-
 ### Projektstruktur
 ```
 event-booking-system/
